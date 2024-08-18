@@ -23,9 +23,9 @@
         <a class="navbar-brand fw-bold fs-1 d-none d-md-block logo" href="index.html">Skamart</a>
      
         <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
-          <form class="d-flex border border-1 border-secondary rounded p-1 col  mx-2 mx-md-5" role="search" >
-            <input class="border-0 w-100 " type="search" placeholder="  Cari Produk" aria-label="Search" id="cariProduk">
-            <button class="btn border-start border-2 rounded-1 " type="submit">Cari</button>
+          <form class="d-flex input-group  p-1 col  mx-2 mx-md-5" role="search" >
+            <input required="" type="text" name="text" autocomplete="off" class="input w-100 rounded rounded-4"  id="cariProduk">
+             <label class="user-label bg-body-tertiary">Cari Produk</label>
           </form>
 
           <div class="d-flex ms-auto align-items-center ">
@@ -373,91 +373,94 @@
     <!-- PROMO -->
 
     <div class="container my-3 my-md-5 d-flex justify-content-center align-items-center" id="promo">
-      <div class=" promo d-flex flex-column flex-lg-row justify-content-between  px-5 py-3 py-md-5 rounded">
-        <div class="d-flex flex-column col-12 col-lg-3">
+      <div class=" promo d-flex flex-column flex-lg-row justify-content-between py-3 py-md-5 rounded">
+        <div class="d-flex flex-column col-12 col-lg-3 px-0 px-lg-5 ">
           <h1 class="fw-bold mb-2 mb-md-4 display-2">Flash Sale</h1>
           <h4 class="fw-bold my-2 d-none d-lg-block">Diskon tiap hari sampai 70%!</h4>
           <p class="d-none d-lg-block">Mau nikmatin Flash Deal? Beli Sekarang Di Skamart</p>
         </div>
         
 
-        <div class="kotak-promo  d-flex justify-content-between ">
-          <a href="detailProduct.html" class="text-decoration-none card " id="card-promo">
-            <img loading="lazy" src="asset/img/download (6).jpeg" class="card-img-top" alt="...">
-            <div class="card-body text-nowrap">
-              <span class="card-title fs-5">Chitato</span><br>
-              <span class="border border-success text-success px-2">Jajanan</span>
-              <span class="border border-danger text-success px-2">PROMO</span>
-              <div class="d-flex align-items-center column-gap-2 text-nowrap">
-                <h5 class="card-text fw-bold my-1">Rp 5.000</h5>
-                <span class="text-secondary">Stok: 30</span>
-              </div>
-              <div class="d-flex align-items-center column-gap-2 text-nowrap">
-                <span class="text-secondary text-decoration-line-through">Rp 25.000</span>
-                <span class="fw-bold text-success">70%</span>
-              </div>
-              <div class="d-flex align-items-center d-none d-md-block"><i class="bi bi-geo-alt-fill text-success me-2"></i><span>Madura</span></div>
-              <div class="rating d-flex align-items-center">
-                <div class="d-flex  align-items-center">
-                  <i class="bi bi-star-fill me-2 text-warning "></i>
-                  <span>4.5</span>
+        <div class="pr ">
+          <div class="kotak-promo  d-flex justify-content-around ">
+            <a href="detailProduct.html" class="text-decoration-none card " id="card-promo">
+              <img loading="lazy" src="asset/img/download (6).jpeg" class="card-img-top" alt="...">
+              <div class="card-body text-nowrap">
+                <span class="card-title fs-5">Chitato</span><br>
+                <span class="border border-success text-success px-2">Jajanan</span>
+                <span class="border border-danger text-success px-2">PROMO</span>
+                <div class="d-flex align-items-center column-gap-2 text-nowrap">
+                  <h5 class="card-text fw-bold my-1">Rp 5.000</h5>
+                  <span class="text-secondary">Stok: 30</span>
                 </div>
-                <div class="vr mx-2"></div>
-                <span class="ulasan">51 (Ulasan)</span>
-              </div>  
-            </div>
-          </a>
-          <a href="detailProduct.html" class="text-decoration-none card " id="card-promo">
-            <img loading="lazy" src="asset/img/download (1).jpeg" class="card-img-top" alt="...">
-            <div class="card-body text-nowrap">
-              <span class="card-title fs-5">Gulaku</span><br>
-              <span class="border border-success text-success px-2">Bumbu</span>
-              <span class="border border-danger text-success px-2">PROMO</span>
-              <div class="d-flex align-items-center column-gap-2 text-nowrap">
-                <h5 class="card-text fw-bold my-1">Rp 5.000</h5>
-                <span class="text-secondary">Stok: 30</span>
-              </div>
-              <div class="d-flex align-items-center column-gap-2 text-nowrap">
-                <span class="text-secondary text-decoration-line-through">Rp 25.000</span>
-                <span class="fw-bold text-success">70%</span>
-              </div>
-              <div class="d-flex align-items-center d-none d-md-block"><i class="bi bi-geo-alt-fill text-success me-2"></i><span>Madura</span></div>
-              <div class="rating d-flex align-items-center">
-                <div class="d-flex  align-items-center">
-                  <i class="bi bi-star-fill me-2 text-warning "></i>
-                  <span>4.5</span>
+                <div class="d-flex align-items-center column-gap-2 text-nowrap">
+                  <span class="text-secondary text-decoration-line-through">Rp 25.000</span>
+                  <span class="fw-bold text-success">70%</span>
                 </div>
-                <div class="vr mx-2"></div>
-                <span class="ulasan">51 (Ulasan)</span>
-              </div>  
-            </div>
-          </a>
-          <a href="detailProduct.html" class="text-decoration-none card " id="card-promo">
-            <img loading="lazy" src="asset/img/download (4).jpeg" class="card-img-top" alt="...">
-            <div class="card-body text-nowrap">
-              <span class="card-title fs-5">Susu Kental Manis</span><br>
-              <span class="border border-success text-success px-2">Minuman</span>
-              <span class="border border-danger text-success px-2">PROMO</span>
-              <div class="d-flex align-items-center column-gap-2 text-nowrap">
-                <h5 class="card-text fw-bold my-1">Rp 24.000</h5>
-                <span class="text-secondary">Stok: 30</span>
+                <div class="d-flex align-items-center d-none d-md-block"><i class="bi bi-geo-alt-fill text-success me-2"></i><span>Madura</span></div>
+                <div class="rating d-flex align-items-center">
+                  <div class="d-flex  align-items-center">
+                    <i class="bi bi-star-fill me-2 text-warning "></i>
+                    <span>4.5</span>
+                  </div>
+                  <div class="vr mx-2"></div>
+                  <span class="ulasan">51 (Ulasan)</span>
+                </div>  
               </div>
-              <div class="d-flex align-items-center column-gap-2 text-nowrap">
-                <span class="text-secondary text-decoration-line-through">Rp 25.000</span>
-                <span class="fw-bold text-success">70%</span>
-              </div>
-              <div class="d-flex align-items-center d-none d-md-block"><i class="bi bi-geo-alt-fill text-success me-2"></i><span>Madura</span></div>
-              <div class="rating d-flex align-items-center">
-                <div class="d-flex  align-items-center">
-                  <i class="bi bi-star-fill me-2 text-warning "></i>
-                  <span>4.5</span>
+            </a>
+            <a href="detailProduct.html" class="text-decoration-none card " id="card-promo">
+              <img loading="lazy" src="asset/img/download (1).jpeg" class="card-img-top" alt="...">
+              <div class="card-body text-nowrap">
+                <span class="card-title fs-5">Gulaku</span><br>
+                <span class="border border-success text-success px-2">Bumbu</span>
+                <span class="border border-danger text-success px-2">PROMO</span>
+                <div class="d-flex align-items-center column-gap-2 text-nowrap">
+                  <h5 class="card-text fw-bold my-1">Rp 5.000</h5>
+                  <span class="text-secondary">Stok: 30</span>
                 </div>
-                <div class="vr mx-2"></div>
-                <span class="ulasan">51 (Ulasan)</span>
-              </div>  
-            </div>
-          </a>
+                <div class="d-flex align-items-center column-gap-2 text-nowrap">
+                  <span class="text-secondary text-decoration-line-through">Rp 25.000</span>
+                  <span class="fw-bold text-success">70%</span>
+                </div>
+                <div class="d-flex align-items-center d-none d-md-block"><i class="bi bi-geo-alt-fill text-success me-2"></i><span>Madura</span></div>
+                <div class="rating d-flex align-items-center">
+                  <div class="d-flex  align-items-center">
+                    <i class="bi bi-star-fill me-2 text-warning "></i>
+                    <span>4.5</span>
+                  </div>
+                  <div class="vr mx-2"></div>
+                  <span class="ulasan">51 (Ulasan)</span>
+                </div>  
+              </div>
+            </a>
+            <a href="detailProduct.html" class="text-decoration-none card " id="card-promo">
+              <img loading="lazy" src="asset/img/download (4).jpeg" class="card-img-top" alt="...">
+              <div class="card-body text-nowrap">
+                <span class="card-title fs-5">Susu Kental Manis</span><br>
+                <span class="border border-success text-success px-2">Minuman</span>
+                <span class="border border-danger text-success px-2">PROMO</span>
+                <div class="d-flex align-items-center column-gap-2 text-nowrap">
+                  <h5 class="card-text fw-bold my-1">Rp 24.000</h5>
+                  <span class="text-secondary">Stok: 30</span>
+                </div>
+                <div class="d-flex align-items-center column-gap-2 text-nowrap">
+                  <span class="text-secondary text-decoration-line-through">Rp 25.000</span>
+                  <span class="fw-bold text-success">70%</span>
+                </div>
+                <div class="d-flex align-items-center d-none d-md-block"><i class="bi bi-geo-alt-fill text-success me-2"></i><span>Madura</span></div>
+                <div class="rating d-flex align-items-center">
+                  <div class="d-flex  align-items-center">
+                    <i class="bi bi-star-fill me-2 text-warning "></i>
+                    <span>4.5</span>
+                  </div>
+                  <div class="vr mx-2"></div>
+                  <span class="ulasan">51 (Ulasan)</span>
+                </div>  
+              </div>
+            </a>
+          </div>
         </div>
+       
      
       </div>
          
