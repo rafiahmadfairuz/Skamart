@@ -161,6 +161,7 @@ input:valid ~ .user-label {
 .card span {
   font-size: 13px;
 }
+
 /* ======================================================================== */
 
 /* =============================== PRODUK DISPLAY =============================== */
@@ -306,8 +307,11 @@ input:valid ~ .user-label {
     object-fit: cover;
   }
   .card {
-    width: 150px;
+    width: 157px;
   }
+  .stok {
+    font-size: 11px !important;
+}
   .card-produk h5 {
     font-size: 17px;
   }

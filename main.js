@@ -84,7 +84,7 @@ let ratingOrder = '';
                           <span class="border border-success text-success px-2">${product.kategori}</span>
                           <div class="d-flex align-items-center column-gap-1 text-nowrap">
                               <h5 class="card-text fw-bold my-1">Rp ${product.harga.toLocaleString('id-ID')}</h5>
-                              <span class="text-secondary">Stok: ${product.stok}</span>
+                              <span class="text-secondary stok">Stok: ${product.stok}</span>
                           </div>
                           <div class="d-flex align-items-center"><i class="bi bi-geo-alt-fill text-success me-1"></i><span>Madura</span></div>
                           <div class="rating d-flex align-items-center">
