@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+/* =============================== VARIABEL =============================== */
+:root {
+  --warna-utama: #2c6c2f;
+  --pendukung: #ecffe6;
+  --hover: #d5ed9f;
+  --tinggi-gambar-card: 220px;
+  --lebar-gambar-card: 100%;
+  --lebar-card: 220px;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  overflow-x: auto;
+  background-color: #fff7fc;
+}
+.text-judul {
+    font-family: sans-serif;
+}
+/* ======================================================================== */
+
+/* =============================== REBOOT STYLE BOOTSTRAP =============================== */
+.bg-success,
+.btn-success {
+  background-color: var(--warna-utama) !important;
+}
+.text-success {
+  color: var(--warna-utama) !important;
+}
+.offcanvas {
+  height: 70vh !important;
+}
+.dropdown-menu {
+  width: 60vw !important;
+}
+/* ======================================================================== */
+
+/* =============================== NAVBAR =============================== */
+nav input:focus {
+  outline: 0;
+}
+.logo {
+  color: var(--warna-utama);
+}
+.logo:hover {
+  color: var(--warna-utama);
+}
+ 
+
+/* ======================================================================== */
+
+/* =============================== CAROUSEL =============================== */
+
+.carousel img {
+  width: 100%;
+  height: fit-content;
+  object-fit: cover;
+}
+/* ======================================================================== */
+
+/* =============================== KATEGORI =============================== */
+
+.kotak-kategori {
+  width: 90px;
+  height: 90px;
+  background-color: var(--pendukung);
+  transition: 0.2s;
+}
+.kotak-kategori img {
+  width: 48px;
+  height: 48px;
+}
+.kotak:hover .kotak-kategori {
+  background-color: var(--hover);
+}
+.terpilih {
+  background-color: var(--hover);
+}
+/* ======================================================================== */
+
+/* =============================== PROMO =============================== */
+
+.promo {
+  background-image: url("asset/img/Taieri.png");
+  background-repeat: no-repeat;
+  width: 85%;
+  background-color: var(--hover);
+  overflow-x: auto;
+}
+.kotak-promo {
+  min-width: 600px;
+}
+#card-promo {
+  width: 180px !important;
+}
+#card-promo img {
+  width: var(--lebar-gambar-card);
+  height: 180px;
+}
+
+.card img {
+  width: var(--lebar-gambar-card);
+  height: var(--tinggi-gambar-card);
+  object-fit: cover;
+}
+
+.card {
+  width: var(--lebar-card);
+  transition: 0.2s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+.card-body {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card:hover {
+  transform: translateY(-4px);
+}
+.card span {
+  font-size: 13px;
+}
+/* ======================================================================== */
+
+/* =============================== PRODUK DISPLAY =============================== */
+.judul-produk {
+  height: 10vh;
+}
+/* ======================================================================== */
+
+/* =============================== PRODUK BRAND =============================== */
+#brand {
+    background: linear-gradient(135deg, #d5ed9f 0%, #c7d73a 30%, #b0c84a 60%, #9aab3b 100%);
+
+
+
+
+
+
+}
+.brand .img-fluid {
+  transition: 0.2s;
+  cursor: pointer;
+}
+.brand .img-fluid:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+/* ======================================================================== */
+
+/* =============================== FOOTER =============================== */
+#footer {
+    background: linear-gradient(135deg, #d5ed9f 0%, #c7d73a 30%, #b0c84a 60%, #9aab3b 100%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5), 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+#footer .bi {
+  transition: 0.2s;
+}
+#footer .bi:hover {
+  color: var(--warna-utama);
+}
+
+/* ======================================================================== */
+.cart-item img {
+  max-width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.cart-item-controls {
+  display: flex;
+  align-items: center;
+}
+.cart-item-controls input {
+  width: 40px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+/* =============================== DETAIL PRODUCT =============================== */
+.detail-produk {
+  width: 80%;
+}
+.co {
+  width: 100%;
+  height: fit-content;
+}
+.img-utama {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+.img-kecil {
+  width: 122px;
+  height: 125px;
+  object-fit: cover;
+}
+.img-co {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+
+.button-back {
+    text-decoration: none;
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .button-back::before {
+    margin-left: auto;
+  }
+  
+  .button-back::after, .button-back::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  .button-back:hover::after, .button-back:hover::before {
+    width: 100%;
+  }
+/* ======================================================================== */
+
+@media screen and (max-width: 400px) {
+  .kotak-kategori {
+    width: 50px;
+    height: 50px;
+  }
+  .kotak-kategori img {
+    width: 30px;
+    height: 30px;
+  }
+  .promo {
+    width: 100%;
+  }
+  .detail-produk {
+    width: 100%;
+  }
+
+  .img-utama {
+    width: 300px;
+    height: 300px;
+  }
+  .img-kecil {
+    width: 100%;
+    height: 85px;
+  }
+  .img-co {
+    width: 100px;
+    height: 100px;
+  }
+  .co {
+    width: 100%;
+    height: fit-content;
+  }
+  .card img {
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+  }
+  .card {
+    width: 150px;
+  }
+  .card-produk h5 {
+    font-size: 17px;
+  }
+  
+}
+
+@media screen and (min-width: 401px) and (max-width: 767px) {
+  .kotak-kategori {
+    width: 50px;
+    height: 50px;
+  }
+  .kotak-kategori img {
+    width: 30px;
+    height: 30px;
+  }
+  .promo {
+    width: 100%;
+  }
+  .detail-produk {
+    width: 100%;
+  }
+
+  .img-utama {
+    width: 300px;
+    height: 300px;
+  }
+  .img-kecil {
+    width: 100%;
+    height: 85px;
+  }
+  .img-co {
+    width: 100px;
+    height: 100px;
+  }
+  .co {
+    width: 100%;
+    height: fit-content;
+  }
+  .card img {
+    max-width: 170px;
+    max-height: 170px;
+    object-fit: cover;
+  }
+  .card {
+    width: 170px;
+  }
+  .card-produk h5 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .promo {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .promo {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  .promo {
+    width: 100%;
+  }
+}
