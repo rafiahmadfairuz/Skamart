@@ -49,10 +49,8 @@ $(document).ready(function() {
         {id: 12, gambarProduk: "asset/img/download (4).jpeg", namaProduk: 'Coklat Silverqueen', kategori: 'Jajanan', harga: 22000, stok: 30, terjual: 10, rating: 4.9},
         {id: 13, gambarProduk: "asset/img/download (5).jpeg", namaProduk: 'Wortel', kategori: 'Sayuran', harga: 3000, stok: 120, terjual: 500, rating: 4.0},
         {id: 14, gambarProduk: "asset/img/Olatte drink Pin pink ver.jpeg", namaProduk: 'Pisang', kategori: 'Buah', harga: 18000, stok: 90, terjual: 53, rating: 4.6},
-        {id: 15, gambarProduk: "asset/img/download (6).jpeg", namaProduk: 'Kacang Kulit', kategori: 'Jajanan', harga: 10000, stok: 150, terjual: 5, rating: 4.3},
-        {id: 16, gambarProduk: "asset/img/Kimomart _ Sarden ABC.jpeg", namaProduk: 'Tomat', kategori: 'Sayuran', harga: 4000, stok: 110, terjual: 11, rating: 4.1},
-        {id: 17, gambarProduk: "asset/img/download (1).jpeg", namaProduk: 'Jeruk', kategori: 'Buah', harga: 12000, stok: 80, terjual: 76, rating: 4.7},
-        {id: 18, gambarProduk: "asset/img/download (2).jpeg", namaProduk: 'Brokoli', kategori: 'Sayuran', harga: 8000, stok: 100, terjual: 500, rating: 4.3}
+        {id: 15, gambarProduk: "asset/img/Kimomart _ Sarden ABC.jpeg", namaProduk: 'Tomat', kategori: 'Sayuran', harga: 4000, stok: 110, terjual: 11, rating: 4.1},
+        {id: 16, gambarProduk: "asset/img/download (1).jpeg", namaProduk: 'Jeruk', kategori: 'Buah', harga: 12000, stok: 80, terjual: 76, rating: 4.7},
     ];
 
       

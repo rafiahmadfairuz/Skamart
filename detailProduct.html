@@ -18,8 +18,8 @@
     <nav class="navbar shadow-sm  bg-body-tertiary border-bottom sticky-top z-3">
         <div class="container-fluid px-2 px-md-5 ">
           <a class="navbar-brand fw-bold fs-1 d-none d-sm-block logo me-auto" href="index.html">Skamart</a>
-          <button class="button-back mt-2 me-md-3 "><a href="index.html" class="text-reset text-decoration-none text-nowrap fs-5"><i class="bi bi-caret-left"></i>Kembali Ke Beranda</a></button>
-            <div class="d-flex ms-auto align-items-center">
+          <button class="button-back mt-2 me-md-3"><a href="index.html" class="text-reset text-decoration-none text-nowrap "><i class="bi bi-caret-left"></i>Kembali Ke Beranda</a></button>
+            <div class="d-flex align-items-center">
               <i class="bi bi-cart2 position-relative fs-1 me-1 me-md-3 " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"></i>
               <div class="offcanvas offcanvas-bottom" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
                 <div class="offcanvas-header border-bottom">
@@ -258,11 +258,11 @@
         </div>
       </nav>
      <!-- ============================================== -->
-     <div class="container-fluid d-flex justify-content-center">
+     <div class="container-fluid d-flex justify-content-center ">
         <div class="d-flex flex-column flex-xl-row justify-content-center py-lg-5 column-gap-4 detail-produk">
             <!-- IMAGE PRODUCT -->
             <div class="d-flex flex-column align-items-center align-items-xl-start">
-                <h2 class="fw-bold d-none d-xl-block">Nama Produk</h2>
+                <h2 class="fw-bold d-none d-xl-block">Susu Bendera</h2>
                 <img src="asset/img/download (4).jpeg" alt="" class="img-utama">
                 <div class="mt-3 d-flex justify-content-center">
                     <img src="asset/img/download (1).jpeg" alt="" class="img-kecil border rounded" data-id="1">
@@ -275,7 +275,7 @@
             <!-- DESKRIPSI -->
             <div class="py-3">
                 <div class="border-bottom">
-                    <h1 class="display-5 text-nowrap">Nama Produk</h1>
+                    <h1 class="display-6 text-nowrap">Susu Bendera</h1>
                     <div class="text-nowrap d-flex align-items-center column-gap-2 w-100 my-4">
                         <span>Terjual <span class="text-secondary">4 rb+</span></span>
                         <div class="d-flex align-items-center">
@@ -287,7 +287,7 @@
                 </div>
     
                 <div>
-                    <h2 class="border-bottom py-4">Detail</h2>
+                    <h2 class="border-bottom py-2">Detail</h2>
                     <div class="py-4">
                         <p><span class="text-secondary">Sisa Stok: </span><span class="fw-bolder">50</span></p>
                         <p><span class="text-secondary">Kategori: </span>Jajanan</p>
@@ -308,12 +308,12 @@
             </div>
     
             <!-- CO -->
-            <div class="border border-2 rounded p-3 co my-xl-4">
+            <div class="border border-2 rounded p-3 co my-xl-4 ">
                 <div class="border-bottom py-3">
                     <h4 class="fw-bold">Atur Pesanan</h4>
                     <div class="d-flex align-items-center column-gap-2">
                         <img src="asset/img/download (4).jpeg" alt="" class="img-co">
-                        <p>Nama Produk</p>
+                        <p>Susu Bendera</p>
                     </div>
                 </div>
                 <div class="d-flex justify-content-between align-items-center my-4">
@@ -321,55 +321,229 @@
                     <h4 class="text-nowrap">Rp 21.900</h4>
                 </div>
                 <div class="d-flex flex-column">
-                    <button class="btn btn-success mb-2 card-link fw-bold" data-id="1">Beli</button>
+                    <a href="pembayaran.html" class=" text-decoration-none btn btn-success mb-2 card-link fw-bold ">Beli</a>
                     <button class="btn btn-outline-success fw-bold text-nowrap" data-id="1">Masukkan Keranjang</button>
                 </div>
             </div>
         </div>
     </div>
     
+    <div class="container mt-5">
+        <h3 class="fw-bold">Tambah Penilaian Produk</h3>
+        <form class="mb-4">
+            <div class="mb-3">
+                <input type="text" class="form-control form-control-lg border-0 shadow-sm" id="username" placeholder="Masukkan username">
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control form-control-lg border-0 shadow-sm" id="comment" rows="3" placeholder="Tulis Penilaianmu" style="max-height: 150px;"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success btn-lg fw-bold">Kirim</button>
+        </form>
+        
+        
+        
+        <h3 class="mt-5">Peniaian Produk</h3>
+        
+        <div id="komen">
+            <div class="border-top border-bottom py-3">
+                <div class="d-flex align-items-center mb-2">
+                    <i class="bi bi-person-circle fs-3 me-2"></i>
+                    <strong>aizidane</strong>
+                </div>
+                <div class="d-flex align-items-center mb-2">
+                    <div class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center text-muted mb-2">
+                    <small>12 Aug 2024</small>
+                    <div class="vr mx-2"></div>
+                    <small>Iphone 15 Promax (Pink)</small>
+                </div>
+                <p class="mb-0">Sangat Bagus, Pengiriman Cepat dan Mahal , Mohon Dikurangi Harganya.</p>
+            </div>
     
+            <div class="border-top border-bottom py-3">
+                <div class="d-flex align-items-center mb-2">
+                    <i class="bi bi-person-circle fs-3 me-2"></i>
+                    <strong>RafiAF</strong>
+                </div>
+                <div class="d-flex align-items-center mb-2">
+                    <div class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center text-muted mb-2">
+                    <small>11 Aug 2024</small>
+                    <div class="vr mx-2"></div>
+                    <small>Iphone 15 Promax (Hitam)</small>
+                </div>
+                <p class="mb-0">Bagus dan Cepat , Ini Terlalu Murah Untuk saya.</p>
+            </div>
+    
+            <div class="border-top border-bottom py-3">
+                <div class="d-flex align-items-center mb-2">
+                    <i class="bi bi-person-circle fs-3 me-2"></i>
+                    <strong>Aqila</strong>
+                </div>
+                <div class="d-flex align-items-center mb-2">
+                    <div class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center text-muted mb-2">
+                    <small>10 Aug 2024</small>
+                    <div class="vr mx-2"></div>
+                    <small>Iphone 15 Promax (Coklat)</small>
+                </div>
+                <p class="mb-0">Ini Adalah pembelian hasil dari usaha saya selama 100 tahun, tapi pecah sedikit. syedihhh.</p>
+            </div>
+            <div class="border-top border-bottom py-3">
+                <div class="d-flex align-items-center mb-2">
+                    <i class="bi bi-person-circle fs-3 me-2"></i>
+                    <strong>Aqila</strong>
+                </div>
+                <div class="d-flex align-items-center mb-2">
+                    <div class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center text-muted mb-2">
+                    <small>10 Aug 2024</small>
+                    <div class="vr mx-2"></div>
+                    <small>Iphone 15 Promax (Coklat)</small>
+                </div>
+                <p class="mb-0">Ini Adalah pembelian hasil dari usaha saya selama 100 tahun, tapi pecah sedikit. syedihhh.</p>
+            </div>
+            <div class="border-top border-bottom py-3">
+                <div class="d-flex align-items-center mb-2">
+                    <i class="bi bi-person-circle fs-3 me-2"></i>
+                    <strong>Aqila</strong>
+                </div>
+                <div class="d-flex align-items-center mb-2">
+                    <div class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center text-muted mb-2">
+                    <small>10 Aug 2024</small>
+                    <div class="vr mx-2"></div>
+                    <small>Iphone 15 Promax (Coklat)</small>
+                </div>
+                <p class="mb-0">Ini Adalah pembelian hasil dari usaha saya selama 100 tahun, tapi pecah sedikit. syedihhh.</p>
+            </div>
+            <div class="border-top border-bottom py-3">
+                <div class="d-flex align-items-center mb-2">
+                    <i class="bi bi-person-circle fs-3 me-2"></i>
+                    <strong>Aqila</strong>
+                </div>
+                <div class="d-flex align-items-center mb-2">
+                    <div class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center text-muted mb-2">
+                    <small>10 Aug 2024</small>
+                    <div class="vr mx-2"></div>
+                    <small>Iphone 15 Promax (Coklat)</small>
+                </div>
+                <p class="mb-0">Ini Adalah pembelian hasil dari usaha saya selama 100 tahun, tapi pecah sedikit. syedihhh.</p>
+            </div>
+
+        </div>
+        
+    </div>
+
 
   <!-- FOOTER -->
 
-    <div class="container-fluid mt-5" id="pf">
-      <div class="container-fluid border-bottom rounded-top-5 d-flex justify-content-center border border-1" id="footer">
-        
-          <div class="container row row-cols-1 row-cols-md-3 p-0 p-md-5 g-0 g-md-3">
-              <div class="col p-3 p-md-4">
-                  <a class="fw-bold fs-2 logo text-decoration-none" href="index.html">Skamart</a>
-                  <p class="d-none d-md-block">"Skamart, tempat Anda menemukan segala kebutuhan dengan harga terjangkau dan kualitas terbaik. Kami menyediakan produk berkualitas, dari bahan pokok hingga barang unik, dengan pelayanan yang ramah dan terpercaya"</p>
-                  <div class="icon-sosmed fs-2 d-flex column-gap-4 mt-2">
-                      <i class="bi bi-instagram"></i>
-                      <i class="bi bi-tiktok"></i>
-                      <i class="bi bi-facebook"></i>
-                      <i class="bi bi-youtube"></i>
-                  </div>
-              </div>
-              <div class="col p-3 p-md-4 mt-4">
-                  <div class="d-flex flex-column row-gap-md-2 ms-md-5">
-                      <h2 class="fw-bold text-success">Kategori</h2>
-                      <li class="navbar-nav"><a class="text-decoration-none text-dark" href="">Jajanan</a></li>
-                      <li class="navbar-nav"><a class="text-decoration-none text-dark" href="">Minuman</a></li>
-                      <li class="navbar-nav"><a class="text-decoration-none text-dark" href="">Bumbu</a></li>
-                      <li class="navbar-nav"><a class="text-decoration-none text-dark" href="">Sayuran</a></li>
-                      <li class="navbar-nav"><a class="text-decoration-none text-dark" href="">Buah</a></li>
-                      <li class="navbar-nav"><a class="text-decoration-none text-dark" href="">Item Harian</a></li>
-                  </div>
-              </div>
-              <div class="col p-3 p-md-4 mt-4 d-flex flex-column row-gap-2 row-gap-md-4 text-now">
-                  <h2 class="fw-bold text-success text-nowrap">Kontak Kami</h2>
-                  <div class="d-flex align-items-center column-gap-2">
-                      <i class="bi bi-geo-alt-fill me-2 fs-2"></i>
-                      <span>Sampang , Pamekasan , Madura</span>
-                  </div>
-                  <div class="d-flex align-items-center column-gap-2">
-                      <i class="bi bi-telephone-fill fs-2"></i>
-                      <span class="text-nowrap">+62 345 6543 9685</span>
-                  </div>
-              </div>
+  <div class="container-fluid text-dark-50 footer pt-5 mt-5" id="footer">
+    <div class="container py-5">
+      <div class="pb-4 mb-4" style="border-bottom: 1px solid rgba(8, 7, 1, 0.5)">
+        <div class="row g-4">
+
+          <div class="col-lg-3  w-100 d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <a class="fw-bold fs-2 logo text-decoration-none" href="index.html">Skamart</a>
+            <div class="input-container ">
+              <input required="" placeholder="Kritik dan Saran" type="email">
+              <button class="invite-btn" type="button">
+                Kirim
+              </button>  
+            </div>
           </div>
+
+        </div>
       </div>
+      <div class="row g-5">
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-item">
+            <h4 class="fw-bold mb-3">Kenapa Memilih Kami?</h4>
+            <p class="mb-4">"Skamart, tempat Anda menemukan segala kebutuhan dengan harga terjangkau dan kualitas terbaik. Kami menyediakan produk berkualitas, dari bahan pokok hingga barang unik, dengan pelayanan yang ramah dan terpercaya"</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="d-flex flex-column text-start footer-item">
+            <h4 class="fw-bold mb-3">Sosial Media</h4>
+            <div class="icon-sosmed fs-2 d-flex column-gap-4 mt-2">
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-tiktok"></i>
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-youtube"></i>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="d-flex flex-column text-start footer-item">
+            <h4 class="fw-bold mb-3">Navigasi</h4>
+            <a class="text-reset text-decoration-none" href="index.html">Beranda</a>
+            <a class="text-reset text-decoration-none" href="index.html">Produk</a>
+            <a class="text-reset text-decoration-none" href="index.html">Promo</a>
+            <a class="text-reset text-decoration-none" href="index.html">Tentang kami</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 ">
+          <div class="footer-item ">
+            <h4 class="fw-bold mb-3">Contact</h4>
+            <div class="d-flex align-items-center column-gap-2 my-3">
+              <i class="bi bi-geo-alt-fill me-2 fs-4"></i>
+              <span>Sampang , Pamekasan , Madura</span>
+          </div>
+            <div class="d-flex align-items-center column-gap-2 my-3">
+              <i class="bi bi-envelope-open-fill me-2 fs-5"></i>
+              <span>skamart@gmail.com</span>
+          </div>
+          <div class="d-flex align-items-center column-gap-2 my-3">
+            <i class="bi bi-telephone-fill fs-4"></i>
+            <span class="text-nowrap">+62 345 6543 9685</span>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   
     
