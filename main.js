@@ -55,7 +55,7 @@ $(document).ready(function() {
         {id: 11, gambarProduk: "asset/img/download (3).jpeg", namaProduk: 'Apel Merah', kategori: 'Buah', harga: 15000, stok: 75, terjual: 80, rating: 4.5},
         {id: 12, gambarProduk: "asset/img/download (4).jpeg", namaProduk: 'Coklat Silverqueen', kategori: 'Jajanan', harga: 22000, stok: 30, terjual: 10, rating: 4.9},
         {id: 13, gambarProduk: "asset/img/download (5).jpeg", namaProduk: 'Wortel', kategori: 'Sayuran', harga: 3000, stok: 120, terjual: 500, rating: 4.0},
-        {id: 14, gambarProduk: "asset/img/Olatte drink Pin pink ver.jpeg", namaProduk: 'Pisang', kategori: 'Buah', harga: 18000, stok: 90, terjual: 53, rating: 4.6},
+        {id: 14, gambarProduk: "asset/img/Olatte drink Pin pink ver.jpeg", namaProduk: 'Semangka', kategori: 'Buah', harga: 18000, stok: 90, terjual: 53, rating: 4.6},
         {id: 15, gambarProduk: "asset/img/Kimomart _ Sarden ABC.jpeg", namaProduk: 'Tomat', kategori: 'Sayuran', harga: 4000, stok: 110, terjual: 11, rating: 4.1},
         {id: 16, gambarProduk: "asset/img/download (1).jpeg", namaProduk: 'Jeruk', kategori: 'Buah', harga: 12000, stok: 80, terjual: 76, rating: 4.7},
     ];

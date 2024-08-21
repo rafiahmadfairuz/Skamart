@@ -150,7 +150,7 @@ input:valid ~ .user-label {
   min-width: 600px;
 }
 #card-promo {
-  width: 180px ;
+  width: 180px;
 }
 #card-promo img {
   width: var(--lebar-gambar-card);
@@ -325,10 +325,10 @@ input:valid ~ .user-label {
 /* .deskripsi {
   width: ;
 } */
-.deskripsi i{
-  transition: 0.2s;;
+.deskripsi i {
+  transition: 0.2s;
 }
-.deskripsi i:hover{
+.deskripsi i:hover {
   color: #2c6c2f;
 }
 /* ======================================================================== */
@@ -391,7 +391,7 @@ input:valid ~ .user-label {
     width: 100px;
   }
   #card-promo {
-    width: 160px ;
+    width: 160px;
   }
 }
 
@@ -445,14 +445,12 @@ input:valid ~ .user-label {
   .promo {
     width: 100%;
   }
- 
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
   .promo {
     width: 100%;
   }
-
 }
 
 .input-container {
@@ -491,7 +489,6 @@ input:valid ~ .user-label {
   right: 4px;
   top: 4px;
   bottom: 4px;
-  z-index: 10;
   border-radius: 4px;
   background-color: var(--warna-utama);
   color: #fff;

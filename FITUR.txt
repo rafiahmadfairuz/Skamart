@@ -1,0 +1,37 @@
+*****************************************************  !! FITUR YANG TERSEDIA PADA SKAMART !! ***************************************************************************
+
+
+
+1. Bisa Mencari Produk pada SEARCH BAR di Nav Berdasrkan Nama Produknya (Menggunakan JQUERY)
+
+2. Filter Produk Berdasarrkan RANGE HARGA dengan 2 Input yaitu Min - Max (Menggunakan JQUERY)
+
+3. Filter Produk Berdasarkan Banyaknya Stok Yang Tersedia (Menggunakan JQUERY)
+
+4. Filter Produk Berdasarkan Rating Barang Dengan 2 Pilihan Input Yaitu Urutkan Dari yang Tertiggi , Urutkan Dari yang Terendah (Menggunakan JQUERY)
+
+5. Filter Produk Berdasarkan Kategori (Menggunakan JQUERY)
+
+6. Menggunakan Semua Filter Secara Bersamaan (Menggunakan JQUERY)
+
+7. Button untuk Reset Filter (Menggunakan JQUERY)
+
+8. Menampilkan Pesan Produk Tidak tersedia/ Tidak ditemukan Bila mana Produk Memang tidak ada atau tidak ditemukan (Menggunakan JQUERY)
+
+9. UI yang Responsif dan Ux yang Baik Dengan Pemanfaatan class, icon dan component Dari BOOTSTRAP . **Tanpa Menggunakan Library/Packages Lain selain Bootstrap,Jquery**
+
+10. Terdapat 2 tempat untuk menampilkan Produk 
+    1.Untuk Menampilkan Produk Pertama kali sebelum difiletr / Sesudah di Filter (Dibawah Promo)
+    2.Untuk menampilkan produk Paling terlaris Berdasarkan Penjualan yang diambil dari main.js (Dibawah Bagian Tentang kami) (Menggunakan JQUERY)
+
+11. Terdapat 3 Halaman 
+    1. Halaman Utama(Display Produk BESERTA FITUR FILTERNYA. FILTER DIJELASKAN PADA NOMOR(1,2,3,4,5,6,7))
+    2. Halaman display Produk
+    3. Halaman Transaksi
+
+12. Dan masih Banyak Lagi....... Silahkan Dicoba yaa
+
+Nb: semua Informasi yang Tercantum Pada Card Produk Berasal dari main.js Yang lalu dapat ditampilkan dan menggunakan filter Menggunakan !!!! JQUERY  !!!!
+
+
+*****************************************************  Sekian dan Terimakasih.  ***************************************************************************
