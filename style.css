@@ -105,10 +105,15 @@ input:valid ~ .user-label {
 /* ======================================================================== */
 
 /* =============================== KATEGORI =============================== */
+.isi-kategori {
+  white-space: nowrap;
+  width: 1320px;
+  overflow-x: auto;
+}
 
 .kotak-kategori {
-  width: 90px;
-  height: 90px;
+  min-width: 90px;
+  min-height: 90px;
   background-color: var(--pendukung);
   transition: 0.2s;
 }
@@ -145,7 +150,7 @@ input:valid ~ .user-label {
   min-width: 600px;
 }
 #card-promo {
-  width: 180px !important;
+  width: 180px ;
 }
 #card-promo img {
   width: var(--lebar-gambar-card);
@@ -199,11 +204,16 @@ input:valid ~ .user-label {
     #9aab3b 100%
   );
 }
+.pembungkus-about {
+  width: 1320px;
+  overflow-x: auto;
+}
 .card-about {
   border: 0.1px solid #ecffe6;
   color: #fff7fc;
   transition: 0.3s;
-  width: 320px;
+  min-width: 299px;
+  max-width: 300px;
   background-image: url("asset/img/orangmelayani.jpg");
   background-size: cover;
   background-position: center;
@@ -311,6 +321,16 @@ input:valid ~ .user-label {
 .button-back:hover::before {
   width: 100%;
 }
+
+/* .deskripsi {
+  width: ;
+} */
+.deskripsi i{
+  transition: 0.2s;;
+}
+.deskripsi i:hover{
+  color: #2c6c2f;
+}
 /* ======================================================================== */
 
 .bayar {
@@ -323,14 +343,6 @@ input:valid ~ .user-label {
 }
 
 @media screen and (max-width: 400px) {
-  .kotak-kategori {
-    width: 50px;
-    height: 50px;
-  }
-  .kotak-kategori img {
-    width: 40px;
-    height: 40px;
-  }
   .promo {
     width: 100%;
     overflow-x: hidden !important;
@@ -374,20 +386,16 @@ input:valid ~ .user-label {
   .ulasan {
     font-size: 11px !important;
   }
-  .card-about {
-    width: 250px;
+  #card-promo img {
+    height: 100px;
+    width: 100px;
+  }
+  #card-promo {
+    width: 160px ;
   }
 }
 
 @media screen and (min-width: 401px) and (max-width: 767px) {
-  .kotak-kategori {
-    width: 50px;
-    height: 50px;
-  }
-  .kotak-kategori img {
-    width: 40px;
-    height: 40px;
-  }
   .promo {
     width: 100%;
   }
@@ -437,18 +445,14 @@ input:valid ~ .user-label {
   .promo {
     width: 100%;
   }
-  .card-about {
-    width: 230px;
-  }
+ 
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
   .promo {
     width: 100%;
   }
-  .card-about {
-    width: 270px;
-  }
+
 }
 
 .input-container {

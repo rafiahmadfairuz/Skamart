@@ -15,6 +15,13 @@ $(document).ready(function() {
         $('.brand.container-fluid').removeClass('container-fluid');
         $('.brand').addClass('container');
       }
+      if ($(window).width() < 992) {
+        $('#beranda.container').removeClass('container');
+        $('#beranda').addClass('container-fluid');
+      } else {
+        $('#beranda.container-fluid').removeClass('container-fluid');
+        $('#beranda').addClass('container');
+      }
       if ($(window).width() < 400) {
         $('#pf.container-fluid').removeClass('container-fluid');
         $('#footer.rounded-top-5').removeClass('rounded-top-5');
@@ -135,7 +142,7 @@ $('#cariProduk').on('keyup', function () {
 });
 
 
-$(".isi-kategori .col").on("click", function() {
+$(".isi-kategori .kotak").on("click", function() {
   $(".kotak-kategori").removeClass("terpilih");
   $(this).find(".kotak-kategori").addClass("terpilih");
   let spanText = $(this).find("span").text();
